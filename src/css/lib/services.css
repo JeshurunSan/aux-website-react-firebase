@@ -1,0 +1,136 @@
+.Services {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px var(--lightgray);
+}
+
+.service-text {
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+
+.service-img {
+    height: 350px;
+    width: 100%;
+    background: var(--lightgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: var(--fadedwhite);
+    flex: 2;
+}
+
+.service-img .fa-image {
+    font-size: 3em;
+} 
+
+.services-title {
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.2em;
+    width:  100%;
+    padding: 20px 0;
+}
+
+.service-title {
+    color: var(--gray);
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.service-desc {
+    color: var(--gray);
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.serviceleft {
+    display: flex;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.serviceright {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-img {
+        min-height: 300px;
+        width: 100%;
+        background: var(--lightgray);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        color: var(--fadedwhite);
+        flex: 2;
+    }
+
+    .serviceleft {
+        display: flex;
+        flex-flow: column-reverse wrap;
+        box-sizing: border-box;
+    }
+    
+    .serviceright {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .services-title {
+        color: var(--gray);
+        font-size: 1em;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .Services {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px var(--lightgray);
+    }
+
+    .service-img {
+        min-height: 300px;
+        width: 100%;
+        background: var(--lightgray);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        color: var(--fadedwhite);
+        flex: 2;
+    }
+
+}

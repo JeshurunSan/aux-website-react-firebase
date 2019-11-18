@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700,800,900|Roboto&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+:root {
+    --logofont: 'Alegreya Sans SC', sans-serif;
+    --globalfont: 'Roboto', sans-serif;
+    --logofontsize: 2.5em;
+    --globalfontsize: .70em;
+    --themecolor: #ff9900; /* #fca35b */
+    --lightgray: #eee;
+    --tonedgray: #aaa;
+    --gray: #666;
+    --black: #444;
+    --white: #fff;
+    --fadedwhite: rgba(255,255,255, 0.5);
+  }
+
+  div, a, button {
+    transition: all ease 0.3s;
+  }
+
+.page-content {
+    min-height: 100%;
+    min-width: 300px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    z-index: 3;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: white;
+  }
+
+.wrap {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-flow: row wrap;
+    ALIGN-ITEMS: center;
+    justify-content: space-between;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+  transition: all ease 0.3s;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+  transition: all ease 0.3s;
+}
+
+.fa-twitter-square:hover {
+  color: #1da1f2;
+  transition: all ease 0.3s;
+}
+
+.fa-share-alt:hover {
+  color: #e68523;
+  transition: all ease 0.3s;
+}
+
+.fa-envelope:hover {
+  color: #ee4056;
+  transition: all ease 0.3s;
+}
+
+.fa-linkedin-square:hover {
+  color: #007bb5;
+  transition: all ease 0.3s;
+}
+
+.fa-pinterest-square:hover {
+  color: #bd081c;
+  transition: all ease 0.3s;
+}
+
+.fa-image {
+  font-size: 3em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

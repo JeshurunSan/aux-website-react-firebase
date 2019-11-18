@@ -1,0 +1,94 @@
+.companystaff {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding: 0 0 50px 0;
+    border-bottom: solid 1px var(--lightgray);
+}
+
+.companystaff-title {
+    padding: 40px 0;
+    display: inherit;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.companystaff-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Profile {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 350px;
+    border: solid 1px var(--lightgray);
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.Profile:hover {
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+
+.profile-photo {
+    height: 100%;
+    width: 100%;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: var(--white);
+    background: var(--lightgray);
+}
+
+.profile-photo .fa-user {
+    font-size: 5em;
+}
+
+.profile-desc {
+    color: var(--gray);
+    display: flex;
+    flex-flow: row;
+    min-height: 75px;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-name {
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.profile-position {
+    font-size: 0.7em;
+    color: var(--tonedgray);
+}
+
+.profile-contact a {
+    color: var(--tonedgray);
+    padding: 0 10px;
+}
+
+.profile-contact a:hover {
+    color: var(--themecolor);
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .companystaff-title {
+        padding: 40px 20px;
+    }
+}

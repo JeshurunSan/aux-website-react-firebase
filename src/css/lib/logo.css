@@ -1,0 +1,29 @@
+.Logo {
+    font-family: var(--logofont);
+    font-weight: 900;
+    font-size: 1.9em;
+    font-style: normal;
+}
+
+.Logo a {
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.Logo b {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.Logo em {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.Logo i {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.8em;
+    color: var(--themecolor);
+}

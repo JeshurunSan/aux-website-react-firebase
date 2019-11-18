@@ -1,0 +1,177 @@
+.Contact {
+    background: var(--lightgray);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+
+.contact-wrap {
+    display: inherit;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact-info {
+    display: inherit;
+    flex-flow: column;
+    flex: 2;
+}
+
+.contact-title {
+    padding: 40px 0;
+    display: inherit;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contact-details {
+    width: 220px;
+    color: var(--gray);
+    font-size: 0.9em;
+    padding: 20px 0;
+}
+
+.contact-details a {
+    width: 220px;
+    color: var(--gray);
+    font-size: 0.9em;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.MapCon {
+    height: 400px; 
+    width: 100%;
+    min-width: 300px;
+    background: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--tonedgray);
+    outline: 1px solid var(--lightgray);
+    outline-offset: -15px;
+    box-sizing: border-box;
+}
+
+.MapCon .fa-globe {
+    font-size: 3em;
+}
+
+.contactcard {
+    background: var(--white);
+    height: fit-content;
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-flow: column;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.ccard-title {
+    padding: 0 0 20px 0;
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.3em;
+    border-bottom: solid 1px var(--lightgray);
+}
+
+.ccard-desc {
+    color: var(--gray);
+    font-size: 0.75em;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 20px 0 10px 0;
+    box-sizing: border-box;
+}
+
+.ccard-form {
+    padding: 20px 0 0 0;
+}
+
+.ccard-form div {
+    width: 100%;
+    margin: 0 0 10px 0;
+    line-height: 50px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.ccard-form div input, .ccard-form div textarea {
+    line-height: 2em;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 0 0 10px;
+}
+
+.ccard-form div textarea {
+    height: 150px;
+}
+
+.ccard-form button {
+    background: var(--tonedgray);
+    border: none;
+    height: 35px;
+    width: 170px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ccard-form button:hover {
+    background: var(--themecolor);
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-title {
+        padding: 40px 20px;
+        align-self: flex-start;
+    }
+
+    .contact-wrap {
+        flex-flow: column;
+    }
+
+    .ccard-form div {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .ccard-form {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .ccard-form div input {
+        width: 100%;
+    }
+
+    .contact-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-details {
+        width: 220px;
+        color: var(--gray);
+        font-size: 0.9em;
+        padding: 20px;
+        text-align: center;
+    }
+}

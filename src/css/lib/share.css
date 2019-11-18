@@ -1,0 +1,9 @@
+.share {
+    width: 100%;
+    line-height: 5em;
+}
+
+.share a {
+    color: var(--gray);
+    padding: 0 8px 0 0;
+}

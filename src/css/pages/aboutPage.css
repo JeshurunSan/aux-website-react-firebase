@@ -1,0 +1,102 @@
+.aboutimg {
+    min-height: 500px;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background: var(--lightgray);
+    padding: 0;
+    margin: 100px 0 0 0;
+    outline: solid 1px white;
+    outline-offset: -15px;
+    font-size: 1em;
+    color: white;
+}
+
+.aboutimg .fa-image {
+    font-size: 5em;
+}
+
+.aboutcompany {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 0 50px 0;
+    border-bottom: solid 1px var(--lightgray);
+}
+
+.about-text {
+    display: flex;
+    min-width: 300px;
+    width: 100%;
+    flex: 2;
+    flex-flow: column;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
+}
+
+.about-title {
+    padding: 40px 0;
+    display: inherit;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.about-desc {
+    justify-content: space-between;
+    color: var(--gray);
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+.about-fig {
+    margin: -75px 0 0 0;
+    display: flex;
+    flex: 2;
+    background: var(--tonedgray);
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: var(--white);
+}
+
+.about-fig .fa-eye {
+    font-size: 4em;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-fig {
+        display: none;
+    }
+
+    .about-text {
+        display: flex;
+        min-width: 300px;
+        width: 100%;
+        flex: 2;
+        flex-flow: column;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .aboutcompany {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        padding: 0 0 0 0;
+        border-bottom: solid 1px var(--lightgray);
+    }
+
+    .about-share {
+        width: 100%;
+        line-height: 5em;
+    }
+}

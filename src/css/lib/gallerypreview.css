@@ -1,0 +1,100 @@
+.gallerypreview {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-bottom: solid 1px var(--lightgray);
+}
+
+.gallery-header {
+    padding: 20px 20px 50px 20px;
+    display: inherit;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.gallery-header .title {
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.gallery-header .extension a {
+    color: var(--gray);
+    font-weight: bold;
+    font-size: 0.80em;
+    text-decoration: none;
+}
+
+.extension .fa-arrow-right {
+    margin: 0 0 0 10px;
+}
+
+.gc-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.GCard {
+    height: 350px;
+    width: 350px;
+    background: var(--lightgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: var(--fadedwhite);
+    box-sizing: border-box;
+    border: solid 1px var(--white);
+    border-radius: 0;
+    margin: 0 0 20px 0;
+}
+
+.GCard:hover {
+    background: var(--themecolor);
+    border: solid 1px var(--white);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .GCard {
+        height: 350px;
+        width: 100%;
+        background: var(--lightgray);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        color: var(--fadedwhite);
+        box-sizing: border-box;
+        border: solid 1px var(--white);
+        border-radius: 0;
+        margin: 0 0 20px 0;
+    }
+
+    .gallery-header .title {
+        color: var(--gray);
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 0 20px;
+    }
+
+    .gallery-header .extension a {
+        color: var(--gray);
+        font-weight: bold;
+        font-size: 0.80em;
+        text-decoration: none;
+        padding: 0 20px;
+    }
+}

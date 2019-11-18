@@ -1,0 +1,93 @@
+.Footer {
+    height: 125px;
+    width: 100%;
+    padding: 20px;
+    background: var(--black);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    box-sizing: border-box;
+}
+
+.Footer .Logo {
+    height: 60px;
+    width: 150px;
+    border-right: solid 1px white;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.Footer .Logo a, .Footer .Logo i {
+    color: var(--white);
+}
+
+.contact {
+    width: 350px;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.contact h1, .social h1 {
+    font-size: 0.9em;
+}
+
+.contact p {
+    font-size: 0.7em;
+}
+
+.social {
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social h1 {
+    width: 100%;
+}
+
+.s-links {
+    margin: 4px 0;
+}
+
+.social a {
+    color: var(--fadedwhite);
+    padding: 5px;
+    font-size: 2.3em;
+}
+
+.copyright {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    flex-grow: 2;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+} 
+
+.copyright h2 {
+    padding: 5px 0 0 0;
+    font-size: 0.70em;
+    font-weight: normal;
+}
+
+.copyright a {
+    line-height: 1.5em;
+    color: var(--fadedwhite);
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+.copyright a:hover {
+    color: var(--white);
+}
+
+@media only screen and (max-width: 800px) {
+    .Footer {
+        display: none;
+    }
+
+ }

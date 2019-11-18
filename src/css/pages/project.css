@@ -1,0 +1,153 @@
+.projectheader {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--lightgray);
+    color: var(--gray);
+    margin: 100px 0 0 0;
+    box-sizing: border-box;
+}
+
+.projectheader .wrap {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    padding: 40px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.projectheader-nav, .projectheader-links {
+    width: 100%;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.projectheader-links {
+    font-size: 1em;
+}
+
+.fa-arrow-left {
+    padding: 0 10px;
+}
+
+.projectheader-icon {
+    display: flex;
+    flex-flow: column;
+    align-items:  center;
+}
+
+.projectheader-logo {
+    font-size: 3em;
+    padding: 15px;
+    border: solid 2px var(--gray);
+    border-radius: 30px;
+    margin: 10px;
+    background: var(--gray);
+    color: var(--white);
+}
+
+.projectheader-title {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.projectheader-tagline {
+    font-size: 1em;
+}
+
+.projectcontent {
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.projectcontent-header {
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+}
+
+.projectcontent-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 3em;;
+}
+
+.projectcontent-desc {
+    max-width: 600px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.PSegmentIMG {
+    height: 300px;
+    width: 100%;
+    background: var(--tonedgray);
+    margin: 0 0 5px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.PSegment-img {
+    height: 300px;
+    max-width: 600px;
+    background: var(--tonedgray);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    flex: 1;
+}
+
+.PSegment-txt {
+    height: 300px;
+    max-width: 600px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
+    flex: 1;
+}
+
+.PSegmentHalfR, .PSegmentHalfL {
+    display: flex;
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+
+.PSegmentHalfR {
+    flex-flow: row-reverse;
+}
+
+.Footnote {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: var(--tonedgray);
+}
+
+.Footnote p {
+    line-height: 1em;
+    color: var(--gray);
+}
+
+.Footnote li {
+    font-size: 0.7em;
+}

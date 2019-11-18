@@ -1,0 +1,19 @@
+.error-text {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    color: var(--tonedgray);
+    /* background: var(--gray); */
+    font-size: 2em;
+    height: 100%;
+    width: 100%;
+}
+
+.error-text p {
+    margin: 100px 0 0 0;
+}
+
+.fa-exclamation-triangle {
+    padding: 0 20px;
+}

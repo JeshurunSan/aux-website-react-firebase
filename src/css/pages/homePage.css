@@ -1,0 +1,63 @@
+.slider {
+    width: 100%;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+    outline: solid 1px white;
+    outline-offset: -15px;
+    font-size: 1em;
+    color: white;
+}
+
+.slide-container {
+    width: 100%;
+    margin: auto;
+}
+
+.react-slideshow-container .nav {
+    background: none!important;
+}
+
+.react-slideshow-container .nav span {
+    border-color: var(--white)!important;
+}
+  
+  h3 {
+    text-align: center; }
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 100%;
+    max-height: 650px;
+    display: flex;
+    flex: auto;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  
