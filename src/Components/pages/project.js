@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import ContactSegment from '../mol/contactsegment';
 import Footer from '../org/footer';
 import Share from './../mol/share';
 
 import '../../css/pages/project.css';
+
+import Content from '../../Content';
 
 class Project extends React.Component {
     render(){
@@ -24,17 +27,17 @@ const ProjectHeader =()=>{
         <div className="projectheader">
            <div className="wrap">
             <div className="projectheader-nav">
-                    <span className="fa fa-arrow-left"/> Previous Page
+                    <Link to="/portfolio"><span className="fa fa-arrow-left"/> Previous Page</Link>
                 </div>
                 <div className="projectheader-icon">
                     <div className="projectheader-logo">
                         <span className="fa fa-cubes"/>
                     </div>
                     <div className="projectheader-title">
-                        Project Title
+                        {Content.Project.map((PHDesc, index)=>{return(<div>{PHDesc.ProjectHeaderTitle}</div>);})}
                     </div>
                     <div className="projectheader-tagline">
-                        Lorem ipsum dolor sit amet. Conse!
+                        {Content.Project.map((PHDesc, index)=>{return(<div>{PHDesc.ProjectHeaderTitle}</div>);})}
                     </div>
                 </div>
                 <div className="projectheader-links">
@@ -51,17 +54,17 @@ const ProjectContent =()=> {
             <div className="projectcontent">
                 <div className="projectcontent-header">
                     <div className="projectcontent-title">
-                        Project Title App
+                        {Content.Project.map((PHDesc, index)=>{return(<div>{PHDesc.ProjectHeaderTitle}</div>);})}
                     </div>
                     <div className="projectcontent-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        {Content.Project.map((PHDesc, index)=>{return(<div>{PHDesc.ProjectContentDescription}</div>);})}
                     </div>
                 </div>
                 <PSegmentIMG />
                 <PSegmentHalfL />
                 <PSegmentIMG />
                 <PSegmentIMG />
-                <PSegmentHalfR />
+                <PSegmentHalfR /    >
                 <Footnote />
             </div>
         </div>
@@ -85,7 +88,7 @@ const PSegmentHalfL =()=> {
                 <div className="PSegment-img">
                 <span className="fa fa-image" />Image
                 </div>
-                <div className="PSegment-txt">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className="PSegment-txt">{Content.Project.map((PHDesc, index)=>{return(<div>{PHDesc.PSegmentHalfLText}</div>);})}</div>
             </div>
         </div>
     );
@@ -98,7 +101,7 @@ const PSegmentHalfR =()=> {
                 <div className="PSegment-img">
                 <span className="fa fa-image" />Image
                 </div>
-                <div className="PSegment-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <div className="PSegment-txt">{Content.Project.map((PHDesc, index)=>{return(<div>{PHDesc.PSegmentHalfRText}</div>);})}</div>
             </div>
         </div>
     );

@@ -82,11 +82,6 @@
     padding: 0 10px;
 }
 
-.profile-contact a:hover {
-    color: var(--themecolor);
-    padding: 0 10px;
-}
-
 @media only screen and (max-width: 600px) {
     .companystaff-title {
         padding: 40px 20px;

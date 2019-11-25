@@ -23,6 +23,11 @@
 .projectheader-nav, .projectheader-links {
     width: 100%;
     text-align: right;
+}
+
+.projectheader-nav a {
+    color: var(--gray);
+    text-decoration: none;
     font-size: 0.8em;
 }
 

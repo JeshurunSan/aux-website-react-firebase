@@ -8,6 +8,7 @@
     background: linear-gradient(328deg, rgba(20,20,20,1) 0%, rgba(119,119,119,1) 100%);
     box-sizing: border-box;
     padding: 20px;
+    transition: all ease 2s;
 }
 
 .ProjectView .wrap {

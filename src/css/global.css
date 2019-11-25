@@ -9,6 +9,7 @@
     --themecolor: #ff9900; /* #fca35b */
     --lightgray: #eee;
     --tonedgray: #aaa;
+    --green: lime;
     --gray: #666;
     --black: #444;
     --white: #fff;
@@ -79,6 +80,11 @@
 
 .fa-image {
   font-size: 3em;
+}
+
+.fa-phone:hover {
+  color: var(--green);
+  transition: all ease 0.3s;
 }
 
 ul {

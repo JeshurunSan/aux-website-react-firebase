@@ -32,7 +32,7 @@ const Profile =()=>{
                     <div className="profile-position">Position in the Company</div>
                 </div>
                 <div className="profile-contact">
-                    <Link to="#"><span className="fa fa-comment"></span></Link>
+                    <Link to="#"><span className="fa fa-phone"></span></Link>
                     <Link to="#"><span className="fa fa-envelope"></span></Link>
                 </div> 
             </div>

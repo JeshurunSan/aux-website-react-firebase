@@ -54,19 +54,19 @@ const Slideshow = () => {
             <div className="image-container">
               <img alt="0" src={fadeImages[0]} />
             </div>
-            <h2></h2>
+            <h2> </h2>
           </div>
           <div className="each-fade">
             <div className="image-container">
               <img alt="1" src={fadeImages[1]} />
             </div>
-            <h2></h2>
+            <h2> </h2>
           </div>
           <div className="each-fade">
             <div className="image-container">
               <img alt="2" src={fadeImages[2]} />
             </div>
-            <h2></h2>
+            <h2> </h2>
           </div>
         </Fade>
       </div>

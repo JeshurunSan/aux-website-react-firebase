@@ -5,6 +5,8 @@ import '../../css/lib/footer.css';
 
 import Logo from './../atm/logo';
 
+import Content from '../../Content';
+
 class Footer extends React.Component {
         render() {
             return(
@@ -25,8 +27,8 @@ const Contact =()=> {
         <div className="contact">
             <h1>Contact us</h1>
             <p>
-                hi@aux.nz<br/>
-                Level 5, Cathedral House, 48-52 Wyndham Street, Auckland, New Zealand
+            {Content.CompanyEmail}<br/>
+            {Content.CompanyAddress}
             </p>
         </div>
     );
