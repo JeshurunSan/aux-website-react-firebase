@@ -43,6 +43,21 @@
     background: white!important;
 }
 
+.bm-burger-button {
+    position: absolute!important;
+    right: 0px!important;
+    top: 0px!important;
+    width: 100px!important;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none!important;
+    font-size: 0px!important;
+    background: transparent!important;
+    cursor: pointer!important;
+    outline: none!important;
+}
+
 .Navigation {
     display: flex;
     flex: 1;
